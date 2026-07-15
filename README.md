@@ -4,11 +4,11 @@ SIMS-Coreは、SIMS-Blog-Managerまたは利用者から渡されたSEO改善依
 
 ## 現在のリリース
 
-Production Claude Package R3 Internal Link Optimization（UAT Ready）
+Production Claude Package R2（UAT Ready）
 
 ## 現行インターフェース
 
-- 入力：`SIMS_REQUEST_TEXT_V2`（自然文形式、V1後方互換）
+- 入力：`SIMS_REQUEST_TEXT_V1`（自然文形式）
 - 出力：`SIMS_FEEDBACK_V1` version `1.1`（回答末尾のJSON）
 
 SIMS-Blog-Manager側をJSON入力へ変更する必要はありません。
@@ -18,7 +18,7 @@ SIMS-Blog-Manager側をJSON入力へ変更する必要はありません。
 `distribution/SIMS-Core-Claude-Upload/`だけを使用します。
 
 1. `01_Project_Instructions/CLAUDE_PROJECT_INSTRUCTIONS.md`をClaude Projectの「手順」へ貼り付ける。
-2. `02_Project_Knowledge/`の7ファイルを「コンテキスト」へ登録する。
+2. `02_Project_Knowledge/`の6ファイルを「コンテキスト」へ登録する。
 3. SIMS-Blog-Managerの改善依頼文をClaudeへ貼り付ける。
 
 詳細は`docs/setup-guide.md`を参照してください。
@@ -30,8 +30,3 @@ SIMS-Blog-Manager側をJSON入力へ変更する必要はありません。
 - `tests/`：実記事UAT
 - `tools/validate_feedback.py`：Feedback JSON検証
 - `distribution/`：利用者向けClaude登録パッケージ
-
-
-## Product 5.2連携
-
-Search Console上位クエリ、改善優先順位、記事ランク、変更方針、本文JSON、内部リンク候補を受け取り、ビフォー・アフター＋理由で改善します。採用したテキストリンクはアフター完成文へHTMLで直接埋め込み、ブログカードは具体的な挿入位置と完全URLを出力します。
