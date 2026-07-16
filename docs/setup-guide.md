@@ -8,3 +8,8 @@
 6. 回答末尾のJSONをBlog-Managerの結果登録に使用します。
 
 旧SIMS-Claude-EngineのEngine01〜10や大量のテンプレートを同時に登録しないでください。旧ルールとの競合を避けるため、Production配布フォルダのファイルだけを使用します。
+
+
+## R4更新時
+
+Project Knowledgeは旧ファイルを残さず、`02_Project_Knowledge/`の8ファイルへ入れ替えてください。

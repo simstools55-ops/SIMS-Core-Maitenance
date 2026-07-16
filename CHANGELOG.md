@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.4.0-production-preview - 2026-07-16
+
+- 記事ランクはSIMS-Blog-Manager、改善レベルはSIMS-Coreという責務分離を正式化
+- 依頼文中の改善レベル指定を採用せず、Coreが独自判定するルールを追加
+- Level 1〜5の改善レベルとLevel 5再構築ルールを追加
+- 標準出力を改善サマリー、ビフォー・アフター、内部リンク評価、改善後全文、Feedback JSONの5部構成へ固定
+- Before/Afterを独立コードブロック化し、タイトル類をtext形式へ統一
+- HTML内部リンクに加えてMarkdown版の出力を追加
+- 改善後の記事全文を必須化し、Feedback JSONへ全文を含めない仕様を明記
+- Claude Knowledgeを8ファイル構成へ更新
+
+## 0.3.0-production-preview - 2026-07-15
+
+- SIMS_REQUEST_TEXT_V2を追加し、Product 5.2依頼文へ対応
+- Search Console上位20クエリ、改善優先順位、記事ランク、変更方針に対応
+- Internal Link Optimization Knowledgeを追加
+- 採用テキストリンクをアフター完成文へHTMLで直接埋め込む仕様を追加
+- ブログカードの挿入位置、記事タイトル、完全URLの出力を必須化
+- 内部リンクの採用・保留・不採用評価とUAT項目を追加
+- Claude登録用distributionを7 Knowledge構成へ更新
+
 ## 0.2.0-production-preview - 2026-07-14
 
 - Claude Project InstructionsをProduction品質へ拡張

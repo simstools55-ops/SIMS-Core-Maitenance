@@ -8,5 +8,6 @@ Claude Projectへ登録するKnowledgeは、旧版の多数のEngine・テンプ
 4. `04_QUALITY_ASSURANCE.md`：最終検査と整合性
 5. `05_OUTPUT_SPECIFICATION.md`：通常出力とFeedback JSON契約
 6. `06_BLOG_PROFILE.md`：ブログ固有ルールを記載する利用者編集領域
+7. `07_INTERNAL_LINK_OPTIMIZATION.md`：内部リンク候補評価、HTML埋め込み、ブログカード、既存リンクの扱い
 
 KnowledgeはAIの判断補助です。Blog-Manager、Apps Script、GitHub Pagesの実装詳細は含めません。
