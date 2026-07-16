@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.1-production-preview
+
+- Removed Before/After labels and annotations from copy-ready code blocks.
+- Added mandatory Completed Article QA.
+- Required complete article output to begin with the introduction and include all sections through the closing links.
+- Required adopted and existing blog cards to remain in the completed article unless explicitly removed or replaced.
+- Added warnings when an existing blog-card URL cannot be reconstructed from the input.
+
+
 ## 0.4.0-production-preview - 2026-07-16
 
 - 記事ランクはSIMS-Blog-Manager、改善レベルはSIMS-Coreという責務分離を正式化
