@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.2-production-preview - 2026-07-16
+
+- Reorganized Claude Project Instructions into execution, quality, output, and feedback rules.
+- Made the current request the Single Source of Truth over prior conversation history.
+- Required complete execution without confirmation when sufficient input is present.
+- Prevented repeated requests from being stopped as already processed.
+- Consolidated the final-output lock and Japanese deliverable rules.
+- Synchronized the source and Claude upload distribution copies.
+
 ## 0.4.1-production-preview
 
 - Removed Before/After labels and annotations from copy-ready code blocks.
